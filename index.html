@@ -23,15 +23,14 @@
         <i class="fa fa-ellipsis-v"></i>
       </div>
     </nav>
-
     <section class="form">
       <form action="">
         <label for="name" class="person-icon">
-          <i class="fas fa-user-alt"></i>
+          <i class="fas fa-user-alt grey"></i>
         </label>
         <input type="text" placeholder="Name" class="name-input back" id="name">
         <label for="phone" class="phone-icon">
-          <i class="fas fa-phone"></i>
+          <i class="fas fa-phone grey"></i>
         </label>
         <input type="tel" name="phone" id="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number" class="phone-input">
         <select name="kind" id="label" class="label-input">
@@ -41,7 +40,7 @@
           <option value="business">Business</option>
         </select>
         <label for="address" class="add">
-          <i class="fas fa-map-marker"></i>
+          <i class="fas fa-map-marker grey"></i>
         </label>
         <input type="text" name="address" id="address" placeholder="Address" class="add-input back">
         <input type="text" name="address" id="city" placeholder="City" class="city">
@@ -103,13 +102,13 @@
         </label>
         <label for="zip"></label>
         <input type="text" name="zip" id="zip" class="zip" placeholder="Zip" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-        <label for="email" class="email material-icons">email</label>
+        <label for="email" class="email fas fa-envelope-square grey"></label>
         <input type="email" name="email" id="email" placeholder="Email" class="email-input">
         <label for="birthday" class="birth">
-          <i class="fa fa-birthday-cake"></i>
+          <i class="fa fa-birthday-cake grey"></i>
         </label>
         <input type="text" class="date-input" name="birthday" id="birthday" placeholder="Birthday" onfocus="(this.type='date')" onblur="(this.type='text')">
-        <i class="far fa-calendar-alt icon-form"></i>
+        <i class="far fa-calendar-alt icon-form grey"></i>
       </form>
     </section>
 
